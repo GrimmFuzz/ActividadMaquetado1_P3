@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pasaporte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <P></P>
+            <P></P>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+            <div class="date-group">
+                <input type="number" id="dia-nacimiento" name="dia-nacimiento" placeholder="Día" min="1" max="31" required>
+                <input type="number" id="mes-nacimiento" name="mes-nacimiento" placeholder="Mes" min="1" max="12" required>
+                <input type="number" id="año-nacimiento" name="año-nacimiento" placeholder="Año" required>
+            </div>
+
+            <label for="pais-nacimiento">Ciudad de nacimiento:</label>
+            <input type="text" id="ciudad-nacimiento" name="ciudad-nacimiento" required>
+
+            <label for="pais-nacimiento">País de nacimiento:</label>
+            <input type="text" id="pais-nacimiento" name="pais-nacimiento" required>
+
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="nacionalidad" name="nacionalidad" required>
+
+            <label for="num-pasaporte">Número de pasaporte:</label>
+            <input type="text" id="num-pasaporte" name="num-pasaporte" required>
+
+            <label for="pais-emision">País donde ha sido emitido su pasaporte:</label>
+            <input type="text" id="pais-emision" name="pais-emision" required>
+            <P></P>
+            <label for="fecha-emision">Fecha de emisión del pasaporte:</label>
+            <div class="date-group">
+                <input type="number" id="dia-emision" name="dia-emision" placeholder="Día" min="1" max="31" required>
+                <input type="number" id="mes-emision" name="mes-emision" placeholder="Mes" min="1" max="12" required>
+                <input type="number" id="año-emision" name="año-emision" placeholder="Año" required>
+            </div>
+            <p></p>
+            <label for="fecha-vencimiento">Fecha de vencimiento de su  pasaporte:</label>
+            <div class="date-group">
+                <input type="number" id="dia-vencimiento" name="dia-vencimiento" placeholder="Día" min="1" max="31" required>
+                <input type="number" id="mes-vencimiento" name="mes-vencimiento" placeholder="Mes" min="1" max="12" required>
+                <input type="number" id="año-vencimiento" name="año-vencimiento" placeholder="Año" required>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
